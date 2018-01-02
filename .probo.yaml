@@ -1,6 +1,6 @@
 image: proboci/ubuntu-16.04-dotnet:sdk1.0.1-nightly
 steps:
-  - name: Configure DotnetApp..
+  - name: Configure DotnetApp.
     plugin: DotnetApp
     dllName: lk2-demo.dll
   - name: Check versions.
